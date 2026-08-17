@@ -1,0 +1,21 @@
+{
+  "dataset_name": "UCI Breast Cancer Wisconsin Diagnostic",
+  "source": "sklearn.datasets.load_breast_cancer, originally from UCI Machine Learning Repository",
+  "target_column": "target",
+  "target_mapping": {
+    "0": "malignant",
+    "1": "benign"
+  },
+  "total_instances": 569,
+  "total_features": 30,
+  "test_instances": 114,
+  "models": [
+    "Logistic Regression",
+    "Decision Tree",
+    "KNN",
+    "Naive Bayes",
+    "Random Forest",
+    "Support Vector Machine"
+  ],
+  "random_state": 42
+}
